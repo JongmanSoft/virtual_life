@@ -1,0 +1,30 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "p:\\virtual_life\\virtual_life\\virtual_life_project\\source\\virtual_life_project\\virtual_life_projectgamemode.cpp",
+        "ProvidedModule": "",
+        "PCH": "p:\\virtual_life\\virtual_life\\virtual_life_project\\intermediate\\build\\win64\\x64\\virtual_life_projecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "p:\\virtual_life\\virtual_life\\virtual_life_project\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\virtual_life_project\\definitions.virtual_life_project.h",
+            "p:\\virtual_life\\virtual_life\\virtual_life_project\\source\\virtual_life_project\\virtual_life_projectgamemode.h",
+            "p:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "p:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "p:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "p:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "p:\\virtual_life\\virtual_life\\virtual_life_project\\intermediate\\build\\win64\\unrealeditor\\inc\\virtual_life_project\\uht\\virtual_life_projectgamemode.generated.h",
+            "p:\\virtual_life\\virtual_life\\virtual_life_project\\source\\virtual_life_project\\virtual_life_projectcharacter.h",
+            "p:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "p:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "p:\\ue_5.5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
+            "p:\\ue_5.5\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "p:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "p:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "p:\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "p:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "p:\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "p:\\virtual_life\\virtual_life\\virtual_life_project\\intermediate\\build\\win64\\unrealeditor\\inc\\virtual_life_project\\uht\\virtual_life_projectcharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
