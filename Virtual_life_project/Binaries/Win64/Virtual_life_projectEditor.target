@@ -790,6 +790,10 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Win64/UnrealEditor-AugmentedReality.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/UnrealEditor-AutomationController.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -3670,6 +3674,14 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/LiveLinkControlRig/Binaries/Win64/UnrealEditor-LiveLinkControlRig.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/LiveLinkControlRig/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/LocalizableMessage/Binaries/Win64/UnrealEditor-LocalizableMessage.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -4230,6 +4242,34 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/AR/ARUtilities/Binaries/Win64/UnrealEditor-ARUtilities.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/AR/ARUtilities/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/AR/AppleAR/AppleARKitFaceSupport/Binaries/Win64/UnrealEditor-AppleARKitFaceSupport.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/AR/AppleAR/AppleARKitFaceSupport/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/AR/AppleAR/AppleARKit/Binaries/Win64/UnrealEditor-AppleARKit.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/AR/AppleAR/AppleARKit/Binaries/Win64/UnrealEditor-AppleARKitPoseTrackingLiveLink.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/AR/AppleAR/AppleARKit/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Runtime/ActorLayerUtilities/Binaries/Win64/UnrealEditor-ActorLayerUtilities.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -4715,6 +4755,18 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/Windows/XInputDevice/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/XRBase/Binaries/Win64/UnrealEditor-XRBase.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/XRBase/Binaries/Win64/UnrealEditor-XRBaseEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/XRBase/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -30176,6 +30228,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/LiveLinkControlRig/LiveLinkControlRig.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/LocalizableMessage/LocalizableMessage.uplugin",
 			"Type": "UFS"
 		},
@@ -30360,6 +30416,18 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/AR/ARUtilities/ARUtilities.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/AR/AppleAR/AppleARKitFaceSupport/AppleARKitFaceSupport.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/AR/AppleAR/AppleARKit/AppleARKit.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Runtime/ActorLayerUtilities/ActorLayerUtilities.uplugin",
 			"Type": "UFS"
 		},
@@ -30520,6 +30588,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/XRBase/XRBase.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Tests/InterchangeTests/InterchangeTests.uplugin",
 			"Type": "UFS"
 		},
@@ -30551,6 +30623,7 @@
 	"BuildPlugins": [
 		"ACLPlugin",
 		"AISupport",
+		"ARUtilities",
 		"ActorLayerUtilities",
 		"ActorSequence",
 		"AdvancedRenamer",
@@ -30563,6 +30636,8 @@
 		"AnimationData",
 		"AnimationModifierLibrary",
 		"AnimationSharing",
+		"AppleARKit",
+		"AppleARKitFaceSupport",
 		"AppleImageUtils",
 		"AppleMoviePlayer",
 		"ArchVisCharacter",
@@ -30655,6 +30730,7 @@
 		"LightMixer",
 		"LinuxDeviceProfileSelector",
 		"LiveLink",
+		"LiveLinkControlRig",
 		"LocalizableMessage",
 		"LocationServicesBPLibrary",
 		"MacGraphicsSwitching",
@@ -30747,7 +30823,8 @@
 		"WorldPartitionHLODUtilities",
 		"XCodeSourceCodeAccess",
 		"XGEController",
-		"XInputDevice"
+		"XInputDevice",
+		"XRBase"
 	],
 	"AdditionalProperties": [
 		{
